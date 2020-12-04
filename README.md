@@ -1,6 +1,7 @@
 # backend-carbon
 
 This is the backend for the Nuit de l'Info challenge (https://www.nuitdelinfo.com/inscription/defis/287)
+hosted at : https://backend-carbon.herokuapp.com/
 
 ## Installation
 
