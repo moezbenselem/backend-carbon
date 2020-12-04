@@ -22,7 +22,9 @@ npm run dev
 
 Server : https://backend-carbon.herokuapp.com/
 
-Database : https://remotemysql.com
+Database Host : https://remotemysql.com
+
+[Database Diagram](https://github.com/moezbenselem/backend-carbon/blob/main/DB.png?raw=true)
 
 ### Endpoints
 
