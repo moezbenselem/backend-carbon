@@ -1,6 +1,6 @@
 const { Sequelize } = require("sequelize");
 const { QueryTypes } = require("sequelize");
-const Contact = require("../../../Dev/PROJECTS/Node-JS-Projects/salon-backend/models/contact");
+const Contact = require("../models/contact");
 const Question = require("../models/question");
 const Reponse = require("../models/reponse");
 const Score = require("../models/score");
