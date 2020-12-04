@@ -7,6 +7,9 @@ const Question = require("./models/question");
 const Reponse = require("./models/reponse");
 const Score = require("./models/score");
 const Contact = require("./models/contact");
+const bodyParser = require("body-parser");
+
+app.use(bodyParser.json());
 
 var corsOptions = {
   origin: function (origin, callback) {
