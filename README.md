@@ -1,7 +1,5 @@
 # backend-carbon
 
-# Foobar
-
 This is the backend for the Nuit de l'Info challenge
 
 ## Installation
@@ -19,7 +17,6 @@ npm install
 ```bash
 npm run dev
 ````
-
 
 ## License
 
