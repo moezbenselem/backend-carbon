@@ -1,12 +1,12 @@
 # backend-carbon
 
-This is the backend for the Nuit de l'Info challenge (https://www.nuitdelinfo.com/inscription/defis/287)
+This is the backend for the [Nuit de l'Info challenge](https://www.nuitdelinfo.com/inscription/defis/287)
 
 ## Installation
 
 clone or Download the code
 
-Use the package manager [npm] to install packages.
+Use the package manager [npm](https://www.npmjs.com/get-npm) to install packages.
 
 ```bash
 npm install
