@@ -25,11 +25,10 @@ https://backend-carbon.herokuapp.com/
 ### Endpoints
 
 | Endpoint | Method | Result |
-| ------ | ------ |
+| ------ | ------ | ------|
 | /questions | GET |  get all the questions of the quizz
 | /contact | POST | send the user contact form
 | /score | POST | send the user score of the quizz
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
