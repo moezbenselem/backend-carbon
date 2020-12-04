@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "text": "Achetez-vous de produit ...",
+    "reponses": [
+      {
+        "id": 1,
+        "text": "qdqsd",
+        "score": 100,
+        "type": 1
+      },
+      {
+        "id": 1,
+        "text": "qdqsd",
+        "score": 100,
+        "type": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Choisissez-vous une livraison ...",
+    "reponses": [
+      {
+        "id": 1,
+        "text": "qdqsd",
+        "score": 100,
+        "type": 1
+      },
+      {
+        "id": 2,
+        "text": "qdqsd",
+        "score": 100,
+        "type": 0
+      }
+    ]
+  }
+]
