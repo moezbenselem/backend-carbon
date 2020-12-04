@@ -20,7 +20,9 @@ npm run dev
 
 ## Hosted at
 
-https://backend-carbon.herokuapp.com/
+Server : https://backend-carbon.herokuapp.com/
+
+Database : https://remotemysql.com
 
 ### Endpoints
 
@@ -29,6 +31,7 @@ https://backend-carbon.herokuapp.com/
 | /questions | GET |  get all the questions of the quizz
 | /contact | POST | send the user contact form
 | /score | POST | send the user score of the quizz
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
