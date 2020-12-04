@@ -18,7 +18,7 @@ npm install
 npm run dev
 ````
 
-##hosted at
+## Hosted at
 
 https://backend-carbon.herokuapp.com/
 
