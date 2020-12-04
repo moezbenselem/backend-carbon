@@ -1,6 +1,6 @@
 # backend-carbon
 
-This is the backend for the Nuit de l'Info challenge
+This is the backend for the Nuit de l'Info challenge (https://www.nuitdelinfo.com/inscription/defis/287)
 
 ## Installation
 
