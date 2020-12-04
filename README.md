@@ -2,8 +2,6 @@
 
 This is the backend for the Nuit de l'Info challenge (https://www.nuitdelinfo.com/inscription/defis/287)
 
-hosted at : https://backend-carbon.herokuapp.com/
-
 ## Installation
 
 clone or Download the code
@@ -19,6 +17,18 @@ npm install
 ```bash
 npm run dev
 ````
+
+#hosted at
+
+https://backend-carbon.herokuapp.com/
+
+### Endpoints
+
+| Endpoint | Method | Result |
+| ------ | ------ |
+| /questions | GET |  get all the questions of the quizz
+| /contact | POST | send the user contact form
+| /score | POST | send the user score of the quizz
 
 ## License
 
