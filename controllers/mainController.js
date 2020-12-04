@@ -1,7 +1,9 @@
 const { Sequelize } = require("sequelize");
 const { QueryTypes } = require("sequelize");
+const Contact = require("../../../Dev/PROJECTS/Node-JS-Projects/salon-backend/models/contact");
 const Question = require("../models/question");
 const Reponse = require("../models/reponse");
+const Score = require("../models/score");
 const sequelize = require("../utils/database");
 
 exports.getQuestions = async (req, res) => {
@@ -21,17 +23,57 @@ exports.getQuestions = async (req, res) => {
       }
     );
     q.reponses = rep;
-    //console.log("rep", rep);
+
     resultList.push(q);
-    console.log("list", resultList);
-    //console.log("list : ", resultList);
   }
 
-  //   questions.forEach(async (quest) => {
-  //     console.log("here in foreach");
-
-  //   });
-  console.log("here outside");
-  console.log("list outside ", resultList);
   res.json(resultList);
+};
+
+exports.postContact = (req, res) => {
+  const body = req.body;
+  Contact.create({
+    name: body.name,
+    date_time: new Date().toISOString(),
+    email: body.email,
+    content: body.content,
+  })
+    .then((result) => {
+      console.log(result);
+      res.status(200).json({
+        success: true,
+      });
+    })
+    .catch((err) => {
+      res.status(500).json({
+        sucess: false,
+      });
+    });
+};
+
+exports.getContacts = (req, res) => {
+  Contact.findAll().then((contacts) => {
+    res.header("X-Total-Count", contacts.length);
+    res.header("Access-Control-Expose-Headers", "X-Total-Count");
+    res.json(contacts);
+  });
+};
+
+exports.postScore = (req, res) => {
+  const body = req.body;
+  Score.create({
+    score: body.score,
+    date_time: new Date().toISOString(),
+  })
+    .then((result) => {
+      console.log(result);
+      res.status(200).json({
+        success: true,
+      });
+    })
+    .catch((err) => {
+      res.status(500).json({
+        sucess: false,
+      });
+    });
 };
